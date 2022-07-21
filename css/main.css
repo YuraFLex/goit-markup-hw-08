@@ -464,6 +464,12 @@ body {
 .site-nav {
   display: none;
 }
+@media screen and (min-width: 767px) {
+  .site-nav {
+    display: flex;
+    align-items: center;
+  }
+}
 
 .site-nav__list {
   display: flex;
@@ -586,7 +592,7 @@ body {
 }
 
 /* -------------------- Privileg -------------------- */
-@media screen and (min-width: 768px) {
+@media screen and (min-width: 767px) {
   .privileg {
     display: flex;
     flex-wrap: wrap;
@@ -597,7 +603,7 @@ body {
   width: 100%;
   margin: 0 auto;
 }
-@media screen and (min-width: 768px) {
+@media screen and (min-width: 767px) {
   .privileg__item {
     width: calc((100% - 30px) / 2);
   }
@@ -677,9 +683,13 @@ body {
 
 /* -------------------- Command --------------------*/
 .command {
-  display: flex;
-  flex-wrap: wrap;
   gap: 30px;
+}
+@media screen and (min-width: 767px) {
+  .command {
+    display: flex;
+    flex-wrap: wrap;
+  }
 }
 
 .command__item {
@@ -764,7 +774,7 @@ body {
 .customer__item:hover, .customer__item:focus {
   border-color: #2196f3;
 }
-@media screen and (min-width: 768px) {
+@media screen and (min-width: 767px) {
   .customer__item {
     width: calc((100% - 60px) / 3);
   }

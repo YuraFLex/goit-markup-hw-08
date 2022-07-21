@@ -20,7 +20,7 @@
     border-color: $acent-color;
   }
 
-  @media screen and(min-width: 768px) {
+  @media screen and(min-width: 767px) {
     width: calc((100% - 60px) / 3);
   }
 

@@ -264,6 +264,12 @@ body {
 .site-nav {
   display: none;
 }
+@media screen and (min-width: 767px) {
+  .site-nav {
+    display: flex;
+    align-items: center;
+  }
+}
 
 .site-nav__list {
   display: flex;

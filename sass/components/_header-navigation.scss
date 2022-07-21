@@ -2,8 +2,11 @@
 
 .site-nav {
   display: none;
-  // display: flex;
-  // align-items: center;
+
+  @media screen and (min-width: 767px) {
+    display: flex;
+    align-items: center;
+  }
 }
 
 .site-nav__list {

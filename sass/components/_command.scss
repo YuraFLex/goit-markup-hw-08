@@ -1,9 +1,12 @@
 /* -------------------- Command --------------------*/
 
 .command {
-  display: flex;
-  flex-wrap: wrap;
   @include defaultGap(30px);
+
+  @media screen and(min-width: 767px) {
+    display: flex;
+    flex-wrap: wrap;
+  }
 
   // justify-content: center;
 }
