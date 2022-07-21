@@ -508,6 +508,12 @@ body {
   border-radius: 2px;
 }
 
+.mobile-menu__btn {
+  background-color: transparent;
+  border: none;
+  margin-left: auto;
+}
+
 /* -------------------- Header Contact -------------------- */
 .contact {
   display: none;
