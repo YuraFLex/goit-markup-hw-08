@@ -16,9 +16,17 @@
     url("../../img/hero/mobile.jpg");
   background-size: cover;
   background-repeat: no-repeat;
-
   // padding-top: 200px;
   // padding-bottom: 200px;
+}
+
+@media (min-device-pixel-ratio: 2),
+  (-webkit-min-device-pixel-ratio: 2),
+  (min-resolution: 192dpi),
+  (min-resolution: 2dppx) {
+  .hero {
+    background-image: url("../../img/hero/tablet.jpg");
+  }
 }
 
 .hero__title {

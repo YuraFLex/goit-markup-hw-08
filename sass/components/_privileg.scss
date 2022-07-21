@@ -1,12 +1,19 @@
 /* -------------------- Privileg -------------------- */
 
 .privileg {
-  // display: flex;
+  @media screen and(min-width: 768px) {
+    display: flex;
+    flex-wrap: wrap;
+  }
 }
 
 .privileg__item {
   width: 100%;
   margin: 0 auto;
+
+  @media screen and(min-width: 768px) {
+    width: calc((100% - 30px) / 2);
+  }
 }
 
 .priveleg__box {
