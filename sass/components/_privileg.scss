@@ -1,0 +1,38 @@
+/* -------------------- Privileg -------------------- */
+
+.privileg {
+  display: flex;
+}
+
+.privileg__item {
+  width: 270px;
+  margin: 0 auto;
+}
+
+.priveleg__box {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 120px;
+  background-color: $second-section-bg-color;
+  border-radius: 4px;
+  margin-bottom: 30px;
+}
+
+.priveleg__icon {
+  height: 70px;
+  width: 70px;
+}
+
+.privileg__subtitle {
+  margin-bottom: 10px;
+  font-size: 14px;
+  line-height: 1.7;
+  text-transform: uppercase;
+}
+
+.privileg__text {
+  margin: 0;
+  line-height: 1.7;
+  color: $second-text-color;
+}

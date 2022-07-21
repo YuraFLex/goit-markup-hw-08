@@ -1,0 +1,32 @@
+/* -------------------- Header Contact -------------------- */
+
+.contact {
+  display: flex;
+  margin-left: auto;
+  @include defaultGap(50px);
+}
+
+.contact__link {
+  display: inline-flex;
+  align-items: center;
+  font-weight: 500;
+  line-height: 1.1;
+  letter-spacing: 0.02em;
+  color: $second-text-color;
+  fill: $second-text-color;
+  padding: 32px 0;
+  transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1),
+    fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
+
+  &:hover,
+  &:focus {
+    color: $acent-color;
+    fill: $acent-color;
+  }
+}
+
+.contact__icon {
+  width: 18px;
+  height: 18px;
+  margin-right: 10px;
+}
