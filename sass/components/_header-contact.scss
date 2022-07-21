@@ -1,9 +1,10 @@
 /* -------------------- Header Contact -------------------- */
 
 .contact {
-  display: flex;
-  margin-left: auto;
-  @include defaultGap(50px);
+  display: none;
+  // display: flex;
+  // margin-left: auto;
+  // @include defaultGap(50px);
 }
 
 .contact__link {

@@ -2,12 +2,14 @@
 
 .customer {
   display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
   @include defaultGap(30px);
 }
 
 .customer__item {
   display: flex;
-  width: calc((100% - 150px) / 6);
+  width: calc((100% - 60px) / 2);
   height: 92px;
   border: 1px solid #afb1b8;
   border-radius: 4px;
@@ -17,6 +19,8 @@
   &:focus {
     border-color: $acent-color;
   }
+
+  // width: calc((100% - 150px) / 6);
 }
 
 .customer__link {

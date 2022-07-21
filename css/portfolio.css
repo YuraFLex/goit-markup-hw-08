@@ -208,7 +208,7 @@ body {
 .container {
   margin-left: auto;
   margin-right: auto;
-  width: 1200px;
+  max-width: 1200px;
   padding: 0 15px;
 }
 
@@ -241,7 +241,9 @@ body {
 }
 
 .logo-company {
-  margin-right: 93px;
+  height: 60px;
+  display: inline-flex;
+  align-items: center;
 }
 
 .logo-company__web {
@@ -260,8 +262,7 @@ body {
 
 /* -------------------- Header Navigation -------------------- */
 .site-nav {
-  display: flex;
-  align-items: center;
+  display: none;
 }
 
 .site-nav__list {
@@ -303,9 +304,7 @@ body {
 
 /* -------------------- Header Contact -------------------- */
 .contact {
-  display: flex;
-  margin-left: auto;
-  gap: 50px;
+  display: none;
 }
 
 .contact__link {
@@ -443,12 +442,17 @@ body {
   padding-bottom: 60px;
 }
 
-.footer--flex {
+.footer-content {
   display: flex;
 }
 
-.footer-content {
-  display: flex;
+.footer__adress {
+  text-align: center;
+  margin: 0 auto;
+}
+
+.footer__logo {
+  display: block;
 }
 
 .logo-company__studio--inverse {
@@ -515,7 +519,8 @@ body {
 }
 
 .footer-social {
-  margin-left: 70px;
+  margin-top: 60px;
+  text-align: center;
 }
 
 .footer-social-link--gray-bg {
@@ -533,7 +538,7 @@ body {
   fill: #ffffff;
 }
 
-.social__list {
+.social__list-footer {
   display: flex;
   justify-content: center;
   gap: 10px;
@@ -567,8 +572,9 @@ body {
 /* -------------------- Sunscribe -------------------- */
 .subscribe-form {
   display: block;
+  margin-top: 60px;
+  text-align: center;
   font-weight: 700;
-  margin-left: 93px;
   padding-top: 12px;
   padding-bottom: 20px;
 }
@@ -609,7 +615,7 @@ body {
   line-height: 1.875;
   letter-spacing: 0.06em;
   color: #ffffff;
-  margin: 0 0 0 12px;
+  margin-top: 20px;
   padding: 10px 28px;
   background-color: #2196f3;
   border: 1px solid #2196f3;
