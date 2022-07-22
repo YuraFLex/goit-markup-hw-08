@@ -155,6 +155,11 @@
   padding-top: 12px;
   padding-bottom: 20px;
 
+  @media screen and(min-width: 768px) {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
   // margin-left: 93px;
 }
 
@@ -183,6 +188,10 @@
   &:hover,
   &:focus {
     border-color: $acent-color;
+  }
+
+  @media screen and (max-with: 480px) {
+    min-width: 250px;
   }
 }
 

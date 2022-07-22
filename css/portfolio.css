@@ -239,6 +239,11 @@ body {
   align-items: center;
   margin: 0 auto;
 }
+@media screen and (min-width: 768px) {
+  .head {
+    justify-content: space-between;
+  }
+}
 
 .logo-company {
   height: 60px;
@@ -264,7 +269,7 @@ body {
 .site-nav {
   display: none;
 }
-@media screen and (min-width: 767px) {
+@media screen and (min-width: 768px) {
   .site-nav {
     display: flex;
     align-items: center;
@@ -308,15 +313,16 @@ body {
   border-radius: 2px;
 }
 
-.mobile-menu__btn {
-  background-color: transparent;
-  border: none;
-  margin-left: auto;
-}
-
 /* -------------------- Header Contact -------------------- */
 .contact {
   display: none;
+}
+@media screen and (min-width: 768px) {
+  .contact {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+  }
 }
 
 .contact__link {
@@ -327,7 +333,6 @@ body {
   letter-spacing: 0.02em;
   color: #757575;
   fill: #757575;
-  padding: 32px 0;
   transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1), fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 .contact__link:hover, .contact__link:focus {
@@ -590,6 +595,13 @@ body {
   padding-top: 12px;
   padding-bottom: 20px;
 }
+@media screen and (min-width: 768px) {
+  .subscribe-form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+}
 
 .subscribe-form__title {
   display: block;
@@ -616,6 +628,11 @@ body {
 }
 .subscribe-form__input:hover, .subscribe-form__input:focus {
   border-color: #2196f3;
+}
+@media screen and (max-with: 480px) {
+  .subscribe-form__input {
+    min-width: 250px;
+  }
 }
 
 .subscribe-form__btn {
