@@ -17,62 +17,106 @@
     <header>
       <div class="container head">
         <!-- Логотип -->
-          <a href="./index.html" class="logo-company link"
-            ><span class="logo-company__web">Web</span><span class="logo-company__studio">Studio</span></a
-          >
+        <a href="./index.html" class="logo-company link"
+          ><span class="logo-company__web">Web</span
+          ><span class="logo-company__studio">Studio</span></a
+        >
         <!-- Навигация сайта -->
         <nav class="site-nav">
           <!-- Меню -->
           <ul class="site-nav__list list">
             <li class="site-nav__item">
-              <a href="./index.html" class="site-nav__link site-nav--active link"
+              <a
+                href="./index.html"
+                class="site-nav__link site-nav--active link"
                 >Студия</a
               >
             </li>
             <li class="site-nav__item">
-              <a href="./portfolio.html" class="site-nav__link link">Портфолио</a>
+              <a href="./portfolio.html" class="site-nav__link link"
+                >Портфолио</a
+              >
             </li>
             <li class="site-nav__item">
               <a href="#" class="site-nav__link link">Контакты</a>
             </li>
-          </ul>  
+          </ul>
         </nav>
         <!-- Мобильное меню -->
-        <button class="mobile-menu__btn mobile-menu__btn--open" data-menu-open type="button">
+        <button
+          class="mobile-menu__btn mobile-menu__btn--open"
+          data-menu-open
+          type="button"
+        >
           <svg width="40" height="40">
-            <use href="./img/icon.svg#icon-menu-mobile" ></use>
+            <use href="./img/icon.svg#icon-menu-mobile"></use>
           </svg>
         </button>
         <div class="mobile" data-menu>
-          <button class="mobile-menu__btn mobile-menu__btn--close" data-menu-close  type="button">
+          <button
+            class="mobile-menu__btn mobile-menu__btn--close"
+            data-menu-close
+            type="button"
+          >
             <svg width="40" height="40">
               <use href="./img/icon.svg#icon-close-mobile"></use>
             </svg>
           </button>
           <ul class="mobile__list list">
-            <li class="mobile__item"><a class="mobile__link site-nav--active" href="./index.html">Студия</a></li>
-            <li class="mobile__item"><a class="mobile__link" href="./portfolio.html">Портфолио</a></li>
-            <li class="mobile__item"><a class="mobile__link" href="">Контакты</a></li>
+            <li class="mobile__item">
+              <a class="mobile__link site-nav--active" href="./index.html"
+                >Студия</a
+              >
+            </li>
+            <li class="mobile__item">
+              <a class="mobile__link" href="./portfolio.html">Портфолио</a>
+            </li>
+            <li class="mobile__item">
+              <a class="mobile__link" href="">Контакты</a>
+            </li>
           </ul>
 
           <ul class="mobile-contact list">
-            <li class="mobile-contact__item"><a class="mobile-contact__tel link" href="tel:+380961111111">+38 096 111 11 11</a></li>
-            <li class="mobile-contact__item"><a class="mobile-contact__mail link" href="mailto:info@devstudio.com">info@devstudio.com</a></li>
+            <li class="mobile-contact__item">
+              <a class="mobile-contact__tel link" href="tel:+380961111111"
+                >+38 096 111 11 11</a
+              >
+            </li>
+            <li class="mobile-contact__item">
+              <a
+                class="mobile-contact__mail link"
+                href="mailto:info@devstudio.com"
+                >info@devstudio.com</a
+              >
+            </li>
           </ul>
 
           <ul class="mobile-social list">
-            <li class="mobile-social__item"><a class="mobile-social__link link" href="">Instagram</a></li>
-            <li class="mobile-social__item"><a class="mobile-social__link link" href="">Twitter</a></li>
-            <li class="mobile-social__item"><a class="mobile-social__link link" href="">Facebook</a></li>
-            <li class="mobile-social__item"><a class="mobile-social__link link" href="">LinkedIn</a></li>
+            <li class="mobile-social__item">
+              <a class="mobile-social__link link" href="">Instagram</a>
+            </li>
+            <li class="mobile-social__item">
+              <a class="mobile-social__link link" href="">Twitter</a>
+            </li>
+            <li class="mobile-social__item">
+              <a class="mobile-social__link link" href="">Facebook</a>
+            </li>
+            <li class="mobile-social__item">
+              <a class="mobile-social__link link" href="">LinkedIn</a>
+            </li>
           </ul>
         </div>
+
         <!-- Контакты -->
         <ul class="contact list">
           <li class="contact-item">
             <a href="mailto:info@devstudio.com" class="contact__link link">
               <svg class="contact__icon">
-                <use href="./img/icon.svg#icon-mail" width="18" height="18"></use>
+                <use
+                  href="./img/icon.svg#icon-mail"
+                  width="18"
+                  height="18"
+                ></use>
               </svg>
               info@devstudio.com
             </a>
@@ -80,7 +124,11 @@
           <li class="contact-item">
             <a href="tel:+380961111111" class="contact__link link">
               <svg class="contact__icon">
-                <use href="./img/icon.svg#icon-smartphone" width="18" height="18"></use>
+                <use
+                  href="./img/icon.svg#icon-smartphone"
+                  width="18"
+                  height="18"
+                ></use>
               </svg>
               +38 096 111 11 11
             </a>
@@ -167,7 +215,12 @@
           <ul class="work list">
             <li class="work__item">
               <div class="work__thumb">
-                <img srcset="./img/Work/work-jpg/work1-370.jpg 370w, ./img/Work/work-jpg/work1-740.jpg 740w, ./img/Work/work-jpg/work1-1110.jpg 1110w"
+                <img
+                  srcset="
+                    ./img/Work/work-jpg/work1-370.jpg   370w,
+                    ./img/Work/work-jpg/work1-740.jpg   740w,
+                    ./img/Work/work-jpg/work1-1110.jpg 1110w
+                  "
                   src="./img/Work/work-jpg/work1-370.jpg"
                   alt="Десктопные приложения"
                   sizes="(min-width: 1200) 25vw, (min-width: 767) 50vw, 100vw "
@@ -179,7 +232,12 @@
             </li>
             <li class="work__item">
               <div class="work__thumb">
-                <img srcset="./img/Work/work-jpg/work2-370.jpg 370w, ./img/Work/work-jpg/work2-740.jpg 740w, ./img/Work/work-jpg/work2-1110.jpg 1110w"
+                <img
+                  srcset="
+                    ./img/Work/work-jpg/work2-370.jpg   370w,
+                    ./img/Work/work-jpg/work2-740.jpg   740w,
+                    ./img/Work/work-jpg/work2-1110.jpg 1110w
+                  "
                   src="./img/Work/work-jpg/work2-370.jpg"
                   alt="Мобильные приложения"
                 />
@@ -190,7 +248,12 @@
             </li>
             <li class="work__item">
               <div class="work__thumb">
-                <img srcset="./img/Work/work-jpg/work3-370.jpg 370w, ./img/Work/work-jpg/work3-740.jpg 740w, ./img/Work/work-jpg/work3-1110.jpg 1110w"
+                <img
+                  srcset="
+                    ./img/Work/work-jpg/work3-370.jpg   370w,
+                    ./img/Work/work-jpg/work3-740.jpg   740w,
+                    ./img/Work/work-jpg/work3-1110.jpg 1110w
+                  "
                   src="./img/Work/work-jpg/work3-370.jpg"
                   alt="Дизайнерские решения"
                 />
@@ -210,8 +273,20 @@
           <h2 class="section--title">Наша команда</h2>
           <ul class="command list">
             <li class="command__item">
-              <source srcset="./img/personal/personal-webp/personal1-270.webp 270w, ./img/personal/personal-webp/personal1-540.webp 540w, ./img/personal/personal-webp/personal1-810.webp 810w," type="image/webp">
-              <img srcset="./img/personal/personal-jpg/personal1-270.jpg 270w, ./img/personal/personal-jpg/personal1-540.jpg 540w, ./img/personal/personal-jpg/personal1-810.jpg 810w,"
+              <source
+                srcset="
+                  ./img/personal/personal-webp/personal1-270.webp 270w,
+                  ./img/personal/personal-webp/personal1-540.webp 540w,
+                  ./img/personal/personal-webp/personal1-810.webp 810w
+                "
+                type="image/webp"
+              />
+              <img
+                srcset="
+                  ./img/personal/personal-jpg/personal1-270.jpg 270w,
+                  ./img/personal/personal-jpg/personal1-540.jpg 540w,
+                  ./img/personal/personal-jpg/personal1-810.jpg 810w
+                "
                 src="./img/personal/personal-jpg/personal1-270.jpg"
                 alt="personal1"
               />
@@ -277,8 +352,20 @@
               </div>
             </li>
             <li class="command__item">
-              <source srcset="./img/personal/personal-webp/personal2-270.webp 270w, ./img/personal/personal-webp/personal2-540.webp 540w, ./img/personal/personal-webp/personal2-810.webp 810w," type="image/webp">
-              <img srcset="./img/personal/personal-jpg/personal2-270.jpg 270w, ./img/personal/personal-jpg/personal2-540.jpg 540w, ./img/personal/personal-jpg/personal2-810.jpg 810w,"
+              <source
+                srcset="
+                  ./img/personal/personal-webp/personal2-270.webp 270w,
+                  ./img/personal/personal-webp/personal2-540.webp 540w,
+                  ./img/personal/personal-webp/personal2-810.webp 810w
+                "
+                type="image/webp"
+              />
+              <img
+                srcset="
+                  ./img/personal/personal-jpg/personal2-270.jpg 270w,
+                  ./img/personal/personal-jpg/personal2-540.jpg 540w,
+                  ./img/personal/personal-jpg/personal2-810.jpg 810w
+                "
                 src="./img/personal/personal-jpg/personal2-270.jpg"
                 alt="personal2"
               />
@@ -344,8 +431,20 @@
               </div>
             </li>
             <li class="command__item">
-              <source srcset="./img/personal/personal-webp/personal3-270.webp 270w, ./img/personal/personal-webp/personal3-540.webp 540w, ./img/personal/personal-webp/personal3-810.webp 810w," type="image/webp">
-              <img srcset="./img/personal/personal-jpg/personal3-270.jpg 270w, ./img/personal/personal-jpg/personal3-540.jpg 540w, ./img/personal/personal-jpg/personal3-810.jpg 810w,"
+              <source
+                srcset="
+                  ./img/personal/personal-webp/personal3-270.webp 270w,
+                  ./img/personal/personal-webp/personal3-540.webp 540w,
+                  ./img/personal/personal-webp/personal3-810.webp 810w
+                "
+                type="image/webp"
+              />
+              <img
+                srcset="
+                  ./img/personal/personal-jpg/personal3-270.jpg 270w,
+                  ./img/personal/personal-jpg/personal3-540.jpg 540w,
+                  ./img/personal/personal-jpg/personal3-810.jpg 810w
+                "
                 src="./img/personal/personal-jpg/personal3-270.jpg"
                 alt="personal3"
               />
@@ -411,13 +510,20 @@
               </div>
             </li>
             <li class="command__item">
-              <source srcset="./img/personal/personal-webp/personal4-270.webp 270w, 
-                      ./img/personal/personal-webp/personal4-540.webp 540w, 
-                      ./img/personal/personal-webp/personal4-810.webp 810w,"
-                      type="image/webp">
-              <img srcset="./img/personal/personal-jpg/personal4-270.jpg 270w, 
-                      ./img/personal/personal-jpg/personal4-540.jpg 540w, 
-                      ./img/personal/personal-jpg/personal4-810.jpg 810w,"
+              <source
+                srcset="
+                  ./img/personal/personal-webp/personal4-270.webp 270w,
+                  ./img/personal/personal-webp/personal4-540.webp 540w,
+                  ./img/personal/personal-webp/personal4-810.webp 810w
+                "
+                type="image/webp"
+              />
+              <img
+                srcset="
+                  ./img/personal/personal-jpg/personal4-270.jpg 270w,
+                  ./img/personal/personal-jpg/personal4-540.jpg 540w,
+                  ./img/personal/personal-jpg/personal4-810.jpg 810w
+                "
                 src="./img/personal/personal-jpg/personal4-270.jpg"
                 alt="personal4"
               />
@@ -485,59 +591,59 @@
           </ul>
         </div>
       </section>
+
+      <!-- Customer (Постоянные клиенты)-->
+
+      <section class="section">
+        <div class="container">
+          <h2 class="section--title">Постоянные клиенты</h2>
+          <ul class="customer list">
+            <li class="customer__item">
+              <a href="" class="customer__link">
+                <svg class="customer__icon" width="106" height="60">
+                  <use href="./img/icon.svg#icon-Logo"></use>
+                </svg>
+              </a>
+            </li>
+            <li class="customer__item">
+              <a href="" class="customer__link">
+                <svg class="customer__icon" width="106" height="60">
+                  <use href="./img/icon.svg#icon-Logo-1"></use>
+                </svg>
+              </a>
+            </li>
+            <li class="customer__item">
+              <a href="" class="customer__link">
+                <svg class="customer__icon" width="106" height="60">
+                  <use href="./img/icon.svg#icon-Logo-2"></use>
+                </svg>
+              </a>
+            </li>
+            <li class="customer__item">
+              <a href="" class="customer__link">
+                <svg class="customer__icon" width="106" height="60">
+                  <use href="./img/icon.svg#icon-Logo-3"></use>
+                </svg>
+              </a>
+            </li>
+            <li class="customer__item">
+              <a href="" class="customer__link">
+                <svg class="customer__icon" width="106" height="60">
+                  <use href="./img/icon.svg#icon-Logo-4"></use>
+                </svg>
+              </a>
+            </li>
+            <li class="customer__item">
+              <a href="" class="customer__link">
+                <svg class="customer__icon" width="106" height="60">
+                  <use href="./img/icon.svg#icon-Logo-5"></use>
+                </svg>
+              </a>
+            </li>
+          </ul>
+        </div>
+      </section>
     </main>
-
-    <!-- Customer (Постоянные клиенты)-->
-
-    <section class="section">
-      <div class="container">
-        <h2 class="section--title">Постоянные клиенты</h2>
-        <ul class="customer list">
-          <li class="customer__item">
-            <a href="" class="customer__link">
-              <svg class="customer__icon" width="106" height="60">
-                <use href="./img/icon.svg#icon-Logo"></use>
-              </svg>
-            </a>
-          </li>
-          <li class="customer__item">
-            <a href="" class="customer__link">
-              <svg class="customer__icon" width="106" height="60">
-                <use href="./img/icon.svg#icon-Logo-1"></use>
-              </svg>
-            </a>
-          </li>
-          <li class="customer__item">
-            <a href="" class="customer__link">
-              <svg class="customer__icon" width="106" height="60">
-                <use href="./img/icon.svg#icon-Logo-2"></use>
-              </svg>
-            </a>
-          </li>
-          <li class="customer__item">
-            <a href="" class="customer__link">
-              <svg class="customer__icon" width="106" height="60">
-                <use href="./img/icon.svg#icon-Logo-3"></use>
-              </svg>
-            </a>
-          </li>
-          <li class="customer__item">
-            <a href="" class="customer__link">
-              <svg class="customer__icon" width="106" height="60">
-                <use href="./img/icon.svg#icon-Logo-4"></use>
-              </svg>
-            </a>
-          </li>
-          <li class="customer__item">
-            <a href="" class="customer__link">
-              <svg class="customer__icon" width="106" height="60">
-                <use href="./img/icon.svg#icon-Logo-5"></use>
-              </svg>
-            </a>
-          </li>
-        </ul>
-      </div>
-    </section>
 
     <!-- Footer -->
 
@@ -554,7 +660,8 @@
               <address class="address">
                 <ul class="address__list list">
                   <li class="address__city link">
-                    <a class="color--white link"
+                    <a
+                      class="color--white link"
                       href="https://goo.gl/maps/piqngm7oDQpEDh6u6"
                       target="_blank"
                       rel="noopener nofollow noreferrer"
@@ -588,7 +695,11 @@
                 rel="noopener nofollow noreferrer"
                 aria-label="insragram"
               >
-                <svg class="social__icon footer-icon--white" width="44" height="44">
+                <svg
+                  class="social__icon footer-icon--white"
+                  width="44"
+                  height="44"
+                >
                   <use href="./img/icon.svg#icon-instagram"></use>
                 </svg>
               </a>
@@ -601,7 +712,11 @@
                 rel="noopener nofollow noreferrer"
                 aria-label="twitter"
               >
-                <svg class="social__icon footer-icon--white" width="44" height="44">
+                <svg
+                  class="social__icon footer-icon--white"
+                  width="44"
+                  height="44"
+                >
                   <use href="./img/icon.svg#icon-twitter"></use>
                 </svg>
               </a>
@@ -614,7 +729,11 @@
                 rel="noopener nofollow noreferrer"
                 aria-label="facebook"
               >
-                <svg class="social__icon footer-icon--white" width="44" height="44">
+                <svg
+                  class="social__icon footer-icon--white"
+                  width="44"
+                  height="44"
+                >
                   <use href="./img/icon.svg#icon-facebook"></use>
                 </svg>
               </a>
@@ -627,7 +746,11 @@
                 rel="noopener nofollow noreferrer"
                 aria-label="linkedin"
               >
-                <svg class="social__icon footer-icon--white" width="44" height="44">
+                <svg
+                  class="social__icon footer-icon--white"
+                  width="44"
+                  height="44"
+                >
                   <use href="./img/icon.svg#icon-linkedin"></use>
                 </svg>
               </a>
@@ -660,59 +783,84 @@
       <div class="modal">
         <div class="modal-content">
           <button data-modal-close class="btn-modal">
-          <svg class="btn-modal-icon">
-            <use href="./img/icon.svg#close"></use>
-          </svg>
-        </button>
-        <h2 class="modal-title">Оставьте свои данные, мы вам перезвоним</h2>
-        <form>
-          <ul class="modal-list list">
-            <li class="modal-form-item">
-              <label class="modal-form-label"> Имя
-                <input class="modal-form-input" type="text" name="user-name" required>
-                <svg class="modal-icon">
-                  <use href="./img/icon.svg#icon-person"></use>
-                </svg>
-              </label>
-              
-            </li>
-            <li class="modal-form-item">
-              <label class="modal-form-label">Телефон
-                <input class="modal-form-input" type="tel" name="user-tel" required>
-                <svg class="modal-icon">
-                  <use href="./img/icon.svg#icon-phone"></use>
-                </svg>
-              </label>
-              
-            </li>
-            <li class="modal-form-item">
-              <label class="modal-form-label">Почта
-                <input class="modal-form-input" type="email" name="user-email">
-                <svg class="modal-icon">
-                  <use href="./img/icon.svg#icon-email"></use>
-                </svg>
-              </label>
-              
-            </li>
-            <li class="modal-form-item">
-              <label class="modal-form-label">Комментарий
-                <textarea class="modal-form-input comment-input" name="comment" placeholder="Введите текст"></textarea>
-              </label>
-              
-            </li>
-          </ul>
+            <svg class="btn-modal-icon">
+              <use href="./img/icon.svg#close"></use>
+            </svg>
+          </button>
+          <h2 class="modal-title">Оставьте свои данные, мы вам перезвоним</h2>
+          <form>
+            <ul class="modal-list list">
+              <li class="modal-form-item">
+                <label class="modal-form-label">
+                  Имя
+                  <input
+                    class="modal-form-input"
+                    type="text"
+                    name="user-name"
+                    required
+                  />
+                  <svg class="modal-icon">
+                    <use href="./img/icon.svg#icon-person"></use>
+                  </svg>
+                </label>
+              </li>
+              <li class="modal-form-item">
+                <label class="modal-form-label"
+                  >Телефон
+                  <input
+                    class="modal-form-input"
+                    type="tel"
+                    name="user-tel"
+                    required
+                  />
+                  <svg class="modal-icon">
+                    <use href="./img/icon.svg#icon-phone"></use>
+                  </svg>
+                </label>
+              </li>
+              <li class="modal-form-item">
+                <label class="modal-form-label"
+                  >Почта
+                  <input
+                    class="modal-form-input"
+                    type="email"
+                    name="user-email"
+                  />
+                  <svg class="modal-icon">
+                    <use href="./img/icon.svg#icon-email"></use>
+                  </svg>
+                </label>
+              </li>
+              <li class="modal-form-item">
+                <label class="modal-form-label"
+                  >Комментарий
+                  <textarea
+                    class="modal-form-input comment-input"
+                    name="comment"
+                    placeholder="Введите текст"
+                  ></textarea>
+                </label>
+              </li>
+            </ul>
 
-          <label class="checkbox-label">
-            <input class="checkbox" type="checkbox" name="topic" value="confirm">
-            <span class="checkbox-icon"></span>
-            <span class="checkbox-text">Соглашаюсь с рассылкой и принимаю</span>
-            <a class="checkbox-link" href="">Условия договора</a>
-          </label>
+            <label class="checkbox-label">
+              <input
+                class="checkbox"
+                type="checkbox"
+                name="topic"
+                value="confirm"
+              />
+              <span class="checkbox-icon"></span>
+              <span class="checkbox-text"
+                >Соглашаюсь с рассылкой и принимаю</span
+              >
+              <a class="checkbox-link" href="">Условия договора</a>
+            </label>
 
-         <button class="modal-form-btn" type="submit">Отправить</button>
-
-        </form>
+            <button class="modal-form-btn" type="submit">Отправить</button>
+          </form>
         </div>
+      </div>
     </div>
 
     <script src="./js/model.js"></script>
