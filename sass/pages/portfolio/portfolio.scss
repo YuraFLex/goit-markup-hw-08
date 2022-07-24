@@ -1,12 +1,15 @@
 @import "../../base/normalize";
 @import "../../base/castom-reset";
 @import "../../utilites/custom-colors";
+@import "../../utilites/sections";
 @import "../../base/castom-utilites";
 @import "../../utilites/mixin";
-@import "../../utilites/sections";
+@import "../../utilites/placeholder";
+@import "../../components/container";
 @import "../../components/header";
 @import "../../components/logo";
 @import "../../components/header-navigation";
+@import "../../components/mobile-menu";
 @import "../../components/header-contact";
 @import "./portfolio-content";
 @import "../../components/footer";

@@ -454,11 +454,21 @@ body {
     justify-content: space-between;
   }
 }
+@media screen and (min-width: 1200px) {
+  .head {
+    justify-content: flex-start;
+  }
+}
 
 .logo-company {
   height: 60px;
   display: inline-flex;
   align-items: center;
+}
+@media screen and (min-width: 1200px) {
+  .logo-company {
+    margin-right: 93px;
+  }
 }
 
 .logo-company__web {
@@ -642,6 +652,12 @@ body {
     gap: 10px;
   }
 }
+@media screen and (min-width: 1200px) {
+  .contact {
+    flex-direction: row;
+    margin-left: auto;
+  }
+}
 
 .contact__link {
   display: inline-flex;
@@ -675,6 +691,8 @@ body {
   background: #c4c4c4;
   background-size: cover;
   background-repeat: no-repeat;
+  padding-top: 200px;
+  padding-bottom: 200px;
   background-image: linear-gradient(to right, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("../img/hero/mobile.jpg");
 }
 @media (min-device-pixel-ratio: 2), (-webkit-min-device-pixel-ratio: 2), (min-resolution: 192dpi), (min-resolution: 2dppx) {
@@ -692,6 +710,16 @@ body {
     background-image: url("../img/hero/tablet.jpg");
   }
 }
+@media screen and (min-width: 1200px) {
+  .hero {
+    background-image: linear-gradient(to right, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("../img/hero/mobile.jpg");
+  }
+}
+@media screen and (min-width: 1200px) and (min-device-pixel-ratio: 2), screen and (min-width: 1200px) and (-webkit-min-device-pixel-ratio: 2), screen and (min-width: 1200px) and (min-resolution: 192dpi), screen and (min-width: 1200px) and (min-resolution: 2dppx) {
+  .hero {
+    background-image: url("../img/hero/desctop.jpg");
+  }
+}
 
 .hero__title {
   max-width: 360px;
@@ -704,6 +732,14 @@ body {
   text-transform: uppercase;
   color: #ffffff;
   margin-bottom: 30px;
+}
+@media screen and (min-width: 1200px) {
+  .hero__title {
+    max-width: 656px;
+    font-size: 44px;
+    line-height: 1.3;
+    letter-spacing: 0.06em;
+  }
 }
 
 .hero__btn {
@@ -747,6 +783,11 @@ body {
     width: calc((100% - 30px) / 2);
   }
 }
+@media screen and (min-width: 1200px) {
+  .privileg__item {
+    width: calc((100% - 90px) / 4);
+  }
+}
 
 .priveleg__box {
   display: flex;
@@ -780,6 +821,13 @@ body {
 /* -------------------- Work -------------------- */
 .work {
   display: none;
+}
+@media screen and (min-width: 1200px) {
+  .work {
+    display: flex;
+    justify-content: center;
+    filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+  }
 }
 
 .work-section--title {
@@ -828,6 +876,13 @@ body {
   .command {
     display: flex;
     flex-wrap: wrap;
+  }
+}
+@media screen and (min-width: 1200px) {
+  .command {
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: center;
   }
 }
 
@@ -913,9 +968,15 @@ body {
 .customer__item:hover, .customer__item:focus {
   border-color: #2196f3;
 }
-@media screen and (min-width: 767px) {
+@media screen and (min-width: 768px) {
   .customer__item {
     width: calc((100% - 60px) / 3);
+  }
+}
+@media screen and (min-width: 1200px) {
+  .customer__item {
+    width: calc((100% - 150px) / 6);
+    flex-wrap: nowrap;
   }
 }
 
@@ -942,6 +1003,12 @@ body {
   background: #2f303a;
   padding-top: 60px;
   padding-bottom: 60px;
+}
+
+@media screen and (min-width: 1200px) {
+  .footer--flex {
+    display: flex;
+  }
 }
 
 .footer-content {
@@ -1024,6 +1091,12 @@ body {
   margin-top: 60px;
   text-align: center;
 }
+@media screen and (min-width: 1200px) {
+  .footer-social {
+    margin-top: 0;
+    margin-left: 70px;
+  }
+}
 
 .footer-social-link--gray-bg {
   border-radius: 50%;
@@ -1087,6 +1160,14 @@ body {
     align-items: center;
   }
 }
+@media screen and (min-width: 1200px) {
+  .subscribe-form {
+    display: flex;
+    flex-direction: initial;
+    margin-top: 0;
+    margin-left: 93px;
+  }
+}
 
 .subscribe-form__title {
   display: block;
@@ -1119,6 +1200,11 @@ body {
     min-width: 250px;
   }
 }
+@media screen and (max-with: 1200px) {
+  .subscribe-form__input {
+    width: 358px;
+  }
+}
 
 .subscribe-form__btn {
   display: inline-flex;
@@ -1143,6 +1229,11 @@ body {
   fill: #2196f3;
   color: #2196f3;
   border: transparent;
+}
+@media screen and (min-width: 1200px) {
+  .subscribe-form__btn {
+    margin: 0 0 0 12px;
+  }
 }
 
 .icon-send {
