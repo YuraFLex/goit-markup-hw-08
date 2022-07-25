@@ -28,13 +28,17 @@
   opacity: 1;
   top: 50%;
   left: 50%;
-  width: 528px;
+  width: 450px;
   padding: 40px;
   border-radius: 4px;
   background-color: $prinmary-bg-color;
   fill: $primary-text-color;
   transform: translate(-50%, -50%) scale(1);
   transition: transform 250ms cubic-bezier(0.4, 0, 0.2, 1);
+
+  @media screen and(min-width: 768px) {
+    width: 528px;
+  }
 }
 .modal-content {
   position: relative;
@@ -187,17 +191,27 @@
 }
 
 .checkbox-text {
-  font-size: 14px;
-  line-height: 1.71;
+  font-size: 12px;
+  line-height: calc(14 / 12);
   letter-spacing: 0.03em;
   color: $second-text-color;
+
+  @media screen and(min-width: 1200px) {
+    font-size: 14px;
+    line-height: 1.71;
+  }
 }
 
 .checkbox-link {
-  font-size: 14px;
-  line-height: 1.71;
+  font-size: 12px;
+  line-height: calc(14 / 12);
   letter-spacing: 0.03em;
   text-decoration-line: underline;
   color: $acent-color;
   margin-left: 5px;
+
+  @media screen and (min-width: 1200px) {
+    font-size: 14px;
+    line-height: 1.71;
+  }
 }
