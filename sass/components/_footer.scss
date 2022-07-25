@@ -180,7 +180,7 @@
 
   @media screen and(min-width: 1200px) {
     display: flex;
-    flex-direction: initial;
+    // flex-direction: initial;
     margin-top: 0;
     margin-left: 93px;
   }
@@ -214,11 +214,11 @@
     border-color: $acent-color;
   }
 
-  @media screen and (min-with: 480px) {
+  @media screen and (min-width: 480px) {
     width: 450px;
   }
 
-  @media screen and (min-with: 1200px) {
+  @media screen and (min-width: 1200px) {
     width: 358px;
   }
 }
