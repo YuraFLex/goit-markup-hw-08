@@ -882,6 +882,11 @@ body.no-scroll {
   line-height: 1.7;
   text-transform: uppercase;
 }
+@media screen and (min-width: 767px) {
+  .privileg__subtitle {
+    text-align: left;
+  }
+}
 
 .privileg__text {
   margin: 0;

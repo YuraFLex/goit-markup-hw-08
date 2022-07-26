@@ -45,6 +45,10 @@
   font-size: 14px;
   line-height: 1.7;
   text-transform: uppercase;
+
+  @media screen and(min-width: 767px) {
+    text-align: left;
+  }
 }
 
 .privileg__text {
