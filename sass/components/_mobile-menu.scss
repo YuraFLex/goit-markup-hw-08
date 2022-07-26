@@ -27,7 +27,6 @@
 .mobile {
   display: flex;
   flex-direction: column;
-  justify-content: space-between;
 
   position: fixed;
   top: 0;
@@ -69,6 +68,10 @@
 
 .burger-close {
   transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.mobile-contact {
+  margin-top: auto;
 }
 
 .mobile__item {
@@ -124,6 +127,7 @@
 .mobile-social {
   display: flex;
   flex-wrap: wrap;
+  margin-top: 64px;
 
   @media screen and(max-width: 479px) {
     gap: 10px;
