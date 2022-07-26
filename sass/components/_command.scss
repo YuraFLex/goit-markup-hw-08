@@ -1,6 +1,7 @@
 /* -------------------- Command --------------------*/
 
 .command {
+  display: grid;
   @include defaultGap(30px);
 
   @media screen and(min-width: 767px) {
@@ -51,6 +52,7 @@
 .social__list {
   display: flex;
   justify-content: center;
+  gap: 10px;
 }
 
 .social__network {

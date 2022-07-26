@@ -946,6 +946,7 @@ body.no-scroll {
 
 /* -------------------- Command --------------------*/
 .command {
+  display: grid;
   gap: 30px;
 }
 @media screen and (min-width: 767px) {
@@ -998,6 +999,7 @@ body.no-scroll {
 .social__list {
   display: flex;
   justify-content: center;
+  gap: 10px;
 }
 
 .social__network {
