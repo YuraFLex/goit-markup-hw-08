@@ -215,7 +215,7 @@
 
       <!-- Work (Чем мы занимаемся) -->
 
-      <section class="section no-pb">
+      <section class="section">
         <div class="container">
           <h2 class="section--title work-section--title">Чем мы занимаемся</h2>
           <ul class="work list">
@@ -229,6 +229,7 @@
                   "
                   src="./img/Work/work-jpg/work1-370.jpg"
                   alt="Десктопные приложения"
+                  loading="lazy"
                 />
                 <div class="work__action">
                   <p class="work__text">Десктопные приложения</p>
@@ -245,6 +246,7 @@
                   "
                   src="./img/Work/work-jpg/work2-370.jpg"
                   alt="Мобильные приложения"
+                  loading="lazy"
                 />
                 <div class="work__action">
                   <p class="work__text">Мобильные приложения</p>
@@ -261,6 +263,7 @@
                   "
                   src="./img/Work/work-jpg/work3-370.jpg"
                   alt="Дизайнерские решения"
+                  loading="lazy"
                 />
                 <div class="work__action">
                   <p class="work__text">Дизайнерские решения</p>
@@ -278,25 +281,29 @@
           <h2 class="section--title">Наша команда</h2>
           <ul class="command list">
             <li class="command__item">
-              <source
-                srcset="
-                  ./img/personal/personal-webp/personal1-270.webp 270w,
-                  ./img/personal/personal-webp/personal1-540.webp 540w,
-                  ./img/personal/personal-webp/personal1-810.webp 810w
-                "
-                type="image/webp"
-                sizes="(min-width: 1200) 25vw, (min-width: 767) 50vw, 100vw "
-              />
-              <img
-                srcset="
-                  ./img/personal/personal-jpg/personal1-270.jpg 270w,
-                  ./img/personal/personal-jpg/personal1-540.jpg 540w,
-                  ./img/personal/personal-jpg/personal1-810.jpg 810w
-                "
-                src="./img/personal/personal-jpg/personal1-270.jpg"
-                alt="personal1"
-                sizes="(min-width: 1200) 25vw, (min-width: 767) 50vw, 100vw "
-              />
+              <picture>
+                <source
+                  srcset="
+                    ./img/personal/personal-webp/personal1-270.webp 270w,
+                    ./img/personal/personal-webp/personal1-540.webp 540w,
+                    ./img/personal/personal-webp/personal1-810.webp 810w
+                  "
+                  type="image/webp"
+                  loading="lazy"
+                  sizes="(min-width: 1200) 25vw, (min-width: 767) 50vw, 100vw "
+                />
+                <img
+                  srcset="
+                    ./img/personal/personal-jpg/personal1-270.jpg 270w,
+                    ./img/personal/personal-jpg/personal1-540.jpg 540w,
+                    ./img/personal/personal-jpg/personal1-810.jpg 810w
+                  "
+                  src="./img/personal/personal-jpg/personal1-270.jpg"
+                  alt="personal1"
+                  loading="lazy"
+                  sizes="(min-width: 1200) 25vw, (min-width: 767) 50vw, 100vw "
+                />
+              </picture>
               <div class="command__footer">
                 <h3 class="command__name">Игорь Демьяненко</h3>
                 <p class="command__prof">Product Designer</p>
@@ -359,25 +366,29 @@
               </div>
             </li>
             <li class="command__item">
-              <source
-                srcset="
-                  ./img/personal/personal-webp/personal2-270.webp 270w,
-                  ./img/personal/personal-webp/personal2-540.webp 540w,
-                  ./img/personal/personal-webp/personal2-810.webp 810w
-                "
-                type="image/webp"
-                sizes="(min-width: 1200) 25vw, (min-width: 767) 50vw, 100vw "
-              />
-              <img
-                srcset="
-                  ./img/personal/personal-jpg/personal2-270.jpg 270w,
-                  ./img/personal/personal-jpg/personal2-540.jpg 540w,
-                  ./img/personal/personal-jpg/personal2-810.jpg 810w
-                "
-                src="./img/personal/personal-jpg/personal2-270.jpg"
-                alt="personal2"
-                sizes="(min-width: 1200) 25vw, (min-width: 767) 50vw, 100vw "
-              />
+              <picture>
+                <source
+                  srcset="
+                    ./img/personal/personal-webp/personal2-270.webp 270w,
+                    ./img/personal/personal-webp/personal2-540.webp 540w,
+                    ./img/personal/personal-webp/personal2-810.webp 810w
+                  "
+                  type="image/webp"
+                  loading="lazy"
+                  sizes="(min-width: 1200) 25vw, (min-width: 767) 50vw, 100vw "
+                />
+                <img
+                  srcset="
+                    ./img/personal/personal-jpg/personal2-270.jpg 270w,
+                    ./img/personal/personal-jpg/personal2-540.jpg 540w,
+                    ./img/personal/personal-jpg/personal2-810.jpg 810w
+                  "
+                  src="./img/personal/personal-jpg/personal2-270.jpg"
+                  alt="personal2"
+                  loading="lazy"
+                  sizes="(min-width: 1200) 25vw, (min-width: 767) 50vw, 100vw "
+                />
+              </picture>
               <div class="command__footer">
                 <h3 class="command__name">Ольга Репина</h3>
                 <p class="command__prof">Frontend Developer</p>
@@ -440,25 +451,29 @@
               </div>
             </li>
             <li class="command__item">
-              <source
-                srcset="
-                  ./img/personal/personal-webp/personal3-270.webp 270w,
-                  ./img/personal/personal-webp/personal3-540.webp 540w,
-                  ./img/personal/personal-webp/personal3-810.webp 810w
-                "
-                type="image/webp"
-                sizes="(min-width: 1200) 25vw, (min-width: 767) 50vw, 100vw "
-              />
-              <img
-                srcset="
-                  ./img/personal/personal-jpg/personal3-270.jpg 270w,
-                  ./img/personal/personal-jpg/personal3-540.jpg 540w,
-                  ./img/personal/personal-jpg/personal3-810.jpg 810w
-                "
-                src="./img/personal/personal-jpg/personal3-270.jpg"
-                alt="personal3"
-                sizes="(min-width: 1200) 25vw, (min-width: 767) 50vw, 100vw "
-              />
+              <picture>
+                <source
+                  srcset="
+                    ./img/personal/personal-webp/personal3-270.webp 270w,
+                    ./img/personal/personal-webp/personal3-540.webp 540w,
+                    ./img/personal/personal-webp/personal3-810.webp 810w
+                  "
+                  type="image/webp"
+                  loading="lazy"
+                  sizes="(min-width: 1200) 25vw, (min-width: 767) 50vw, 100vw "
+                />
+                <img
+                  srcset="
+                    ./img/personal/personal-jpg/personal3-270.jpg 270w,
+                    ./img/personal/personal-jpg/personal3-540.jpg 540w,
+                    ./img/personal/personal-jpg/personal3-810.jpg 810w
+                  "
+                  src="./img/personal/personal-jpg/personal3-270.jpg"
+                  alt="personal3"
+                  loading="lazy"
+                  sizes="(min-width: 1200) 25vw, (min-width: 767) 50vw, 100vw "
+                />
+              </picture>
               <div class="command__footer">
                 <h3 class="command__name">Николай Тарасов</h3>
                 <p class="command__prof">Marketing</p>
@@ -521,25 +536,29 @@
               </div>
             </li>
             <li class="command__item">
-              <source
-                srcset="
-                  ./img/personal/personal-webp/personal4-270.webp 270w,
-                  ./img/personal/personal-webp/personal4-540.webp 540w,
-                  ./img/personal/personal-webp/personal4-810.webp 810w
-                "
-                type="image/webp"
-                sizes="(min-width: 1200) 25vw, (min-width: 767) 50vw, 100vw "
-              />
-              <img
-                srcset="
-                  ./img/personal/personal-jpg/personal4-270.jpg 270w,
-                  ./img/personal/personal-jpg/personal4-540.jpg 540w,
-                  ./img/personal/personal-jpg/personal4-810.jpg 810w
-                "
-                src="./img/personal/personal-jpg/personal4-270.jpg"
-                alt="personal4"
-                sizes="(min-width: 1200) 25vw, (min-width: 767) 50vw, 100vw "
-              />
+              <picture>
+                <source
+                  srcset="
+                    ./img/personal/personal-webp/personal4-270.webp 270w,
+                    ./img/personal/personal-webp/personal4-540.webp 540w,
+                    ./img/personal/personal-webp/personal4-810.webp 810w
+                  "
+                  type="image/webp"
+                  loading="lazy"
+                  sizes="(min-width: 1200) 25vw, (min-width: 767) 50vw, 100vw "
+                />
+                <img
+                  srcset="
+                    ./img/personal/personal-jpg/personal4-270.jpg 270w,
+                    ./img/personal/personal-jpg/personal4-540.jpg 540w,
+                    ./img/personal/personal-jpg/personal4-810.jpg 810w
+                  "
+                  src="./img/personal/personal-jpg/personal4-270.jpg"
+                  alt="personal4"
+                  loading="lazy"
+                  sizes="(min-width: 1200) 25vw, (min-width: 767) 50vw, 100vw "
+                />
+              </picture>
               <div class="command__footer">
                 <h3 class="command__name">Михаил Ермаков</h3>
                 <p class="command__prof">UI Designer</p>

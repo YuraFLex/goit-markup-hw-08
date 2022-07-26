@@ -11,6 +11,7 @@
   @media screen and(min-width: 768px) {
     display: flex;
     flex-wrap: wrap;
+    align-items: baseline;
   }
 }
 
@@ -23,6 +24,7 @@
 
   @media screen and(min-width: 768px) {
     margin: 0 auto;
+    align-items: baseline;
   }
 }
 
@@ -37,6 +39,10 @@
 .footer__adress {
   text-align: center;
   margin: 0 auto;
+
+  @media screen and(min-width: 1199px) {
+    text-align: left;
+  }
 }
 
 .footer__logo {
@@ -108,7 +114,7 @@
   letter-spacing: 0.03em;
   text-transform: uppercase;
   margin-bottom: 20px;
-  padding-top: 12px;
+  // padding-top: 12px;
   color: $white-text-color;
 }
 
@@ -125,6 +131,7 @@
   @media screen and(min-width: 1200px) {
     margin-top: 0;
     margin-left: 70px;
+    text-align: left;
   }
 }
 
@@ -185,8 +192,8 @@
   margin-top: 60px;
   text-align: center;
   font-weight: 700;
-  padding-top: 12px;
-  padding-bottom: 20px;
+  // padding-top: 12px;
+  // padding-bottom: 20px;
 
   @media screen and(min-width: 768px) {
     display: flex;
