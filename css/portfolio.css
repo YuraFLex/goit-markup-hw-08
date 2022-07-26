@@ -672,7 +672,7 @@ body {
 }
 @media screen and (min-width: 768px) {
   .footer-content {
-    width: 50%;
+    width: 55%;
   }
 }
 
@@ -717,6 +717,11 @@ body {
 }
 .footer__item:not(:last-child) {
   margin-bottom: 9px;
+}
+@media screen and (min-width: 1200px) {
+  .footer__item {
+    text-align: left;
+  }
 }
 
 .address__city {
