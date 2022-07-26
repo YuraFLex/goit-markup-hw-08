@@ -36,6 +36,10 @@
   transform: translate(-50%, -50%) scale(1);
   transition: transform 250ms cubic-bezier(0.4, 0, 0.2, 1);
 
+  @media screen and(max-width: 479px) {
+    max-width: 310px;
+  }
+
   @media screen and(min-width: 768px) {
     width: 528px;
   }
