@@ -63,6 +63,10 @@
 
 .footer-logo {
   margin-bottom: 9px;
+
+  @media screen and(min-width: 768px) {
+    margin-bottom: 0;
+  }
 }
 
 .address__link {

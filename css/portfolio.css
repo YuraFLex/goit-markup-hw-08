@@ -170,6 +170,9 @@ body {
   letter-spacing: 0.03em;
   background-color: #ffffff;
 }
+body.no-scroll {
+  overflow: hidden;
+}
 
 .section {
   align-items: center;
@@ -711,6 +714,11 @@ body {
 
 .footer-logo {
   margin-bottom: 9px;
+}
+@media screen and (min-width: 768px) {
+  .footer-logo {
+    margin-bottom: 0;
+  }
 }
 
 .address__link {

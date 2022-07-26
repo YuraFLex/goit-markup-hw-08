@@ -4,6 +4,10 @@ body {
   font-size: 14px;
   letter-spacing: 0.03em;
   background-color: $prinmary-bg-color;
+
+  &.no-scroll {
+    overflow: hidden;
+  }
 }
 
 .section {
