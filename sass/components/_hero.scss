@@ -11,8 +11,6 @@
 
   background-size: cover;
   background-repeat: no-repeat;
-  padding-top: 200px;
-  padding-bottom: 200px;
 
   background-image: linear-gradient(
       to right,
@@ -30,7 +28,7 @@
         rgb(0, 0, 0, 0.5),
         rgb(0, 0, 0, 0.5)
       ),
-      url("../img/hero/tablet.jpg");
+      url("../img/hero/mobilx2.jpg");
   }
 
   @media screen and(min-width: 768px) {
@@ -39,7 +37,7 @@
         rgb(0, 0, 0, 0.5),
         rgb(0, 0, 0, 0.5)
       ),
-      url("../img/hero/mobile.jpg");
+      url("../img/hero/tablet.jpg");
     background-position: center;
     padding: 120px;
 
@@ -52,17 +50,19 @@
           rgb(0, 0, 0, 0.5),
           rgb(0, 0, 0, 0.5)
         ),
-        url("../img/hero/tablet.jpg");
+        url("../img/hero/tabletx2.jpg");
     }
   }
 
   @media screen and(min-width: 1200px) {
+    padding-top: 200px;
+    padding-bottom: 200px;
     background-image: linear-gradient(
         to right,
         rgb(0, 0, 0, 0.5),
         rgb(0, 0, 0, 0.5)
       ),
-      url("../img/hero/mobile.jpg");
+      url("../img/hero/desctop.jpg");
 
     @media (min-device-pixel-ratio: 2),
       (-webkit-min-device-pixel-ratio: 2),
@@ -73,7 +73,7 @@
           rgb(0, 0, 0, 0.5),
           rgb(0, 0, 0, 0.5)
         ),
-        url("../img/hero/desctop.jpg");
+        url("../img/hero/desctopx2.jpg");
     }
   }
 }

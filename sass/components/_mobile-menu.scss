@@ -119,6 +119,10 @@
 .mobile-social {
   display: flex;
   flex-wrap: wrap;
+
+  @media screen and(max-width: 479px) {
+    gap: 10px;
+  }
 }
 
 .mobile-social__item {

@@ -626,6 +626,11 @@ body {
   display: flex;
   flex-wrap: wrap;
 }
+@media screen and (max-width: 479px) {
+  .mobile-social {
+    gap: 10px;
+  }
+}
 
 .mobile-social__item {
   border-right: 1px solid rgba(33, 33, 33, 0.2);
@@ -743,35 +748,35 @@ body {
   background: #c4c4c4;
   background-size: cover;
   background-repeat: no-repeat;
-  padding-top: 200px;
-  padding-bottom: 200px;
   background-image: linear-gradient(to right, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("../img/hero/mobile.jpg");
 }
 @media (min-device-pixel-ratio: 2), (-webkit-min-device-pixel-ratio: 2), (min-resolution: 192dpi), (min-resolution: 2dppx) {
   .hero {
-    background-image: linear-gradient(to right, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("../img/hero/tablet.jpg");
+    background-image: linear-gradient(to right, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("../img/hero/mobilx2.jpg");
   }
 }
 @media screen and (min-width: 768px) {
   .hero {
-    background-image: linear-gradient(to right, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("../img/hero/mobile.jpg");
+    background-image: linear-gradient(to right, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("../img/hero/tablet.jpg");
     background-position: center;
     padding: 120px;
   }
 }
 @media screen and (min-width: 768px) and (min-device-pixel-ratio: 2), screen and (min-width: 768px) and (-webkit-min-device-pixel-ratio: 2), screen and (min-width: 768px) and (min-resolution: 192dpi), screen and (min-width: 768px) and (min-resolution: 2dppx) {
   .hero {
-    background-image: linear-gradient(to right, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("../img/hero/tablet.jpg");
+    background-image: linear-gradient(to right, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("../img/hero/tabletx2.jpg");
   }
 }
 @media screen and (min-width: 1200px) {
   .hero {
-    background-image: linear-gradient(to right, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("../img/hero/mobile.jpg");
+    padding-top: 200px;
+    padding-bottom: 200px;
+    background-image: linear-gradient(to right, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("../img/hero/desctop.jpg");
   }
 }
 @media screen and (min-width: 1200px) and (min-device-pixel-ratio: 2), screen and (min-width: 1200px) and (-webkit-min-device-pixel-ratio: 2), screen and (min-width: 1200px) and (min-resolution: 192dpi), screen and (min-width: 1200px) and (min-resolution: 2dppx) {
   .hero {
-    background-image: linear-gradient(to right, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("../img/hero/desctop.jpg");
+    background-image: linear-gradient(to right, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("../img/hero/desctopx2.jpg");
   }
 }
 
@@ -1070,6 +1075,20 @@ body {
   }
 }
 
+.footer__inner {
+  display: flex;
+}
+@media screen and (max-width: 767px) {
+  .footer__inner {
+    flex-direction: column;
+  }
+}
+@media screen and (min-width: 768px) {
+  .footer__inner {
+    margin: 0 auto;
+  }
+}
+
 .footer-content {
   display: flex;
 }
@@ -1159,6 +1178,7 @@ body {
   .footer-social {
     margin-top: 0;
     width: 50%;
+    margin-left: 165px;
   }
 }
 @media screen and (min-width: 1200px) {
@@ -1229,11 +1249,15 @@ body {
     flex-direction: column;
     align-items: center;
     margin: 0 auto;
+    width: 450px;
+    margin-top: 60px;
   }
 }
 @media screen and (min-width: 1200px) {
   .subscribe-form {
     display: flex;
+    align-items: flex-start;
+    width: 585px;
     margin-top: 0;
     margin-left: 93px;
   }
