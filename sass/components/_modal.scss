@@ -106,12 +106,22 @@
   border-radius: 4px;
   transition: border-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 
-  &:focus {
+  &:focus,
+  &:not(:placeholder-shown) {
     border-color: $acent-color;
   }
-
   &:focus + .modal-icon {
     fill: $acent-color;
+  }
+
+  &:required:focus:valid:not(:placeholder-shown),
+  &:required:valid:not(:placeholder-shown) {
+    border-color: #0bbf0b;
+  }
+
+  &:required:focus:invalid:not(:placeholder-shown),
+  &:required:invalid:not(:placeholder-shown) {
+    border-color: #e81f1f;
   }
 }
 

@@ -308,7 +308,6 @@
                   alt="personal1"
                   loading="lazy"
                   sizes="(min-width: 1200) 25vw, (min-width: 767) 50vw, 100vw "
-                  
                 />
               </picture>
               <div class="command__footer">
@@ -394,7 +393,6 @@
                   alt="personal2"
                   loading="lazy"
                   sizes="(min-width: 1200) 25vw, (min-width: 767) 50vw, 100vw "
-                  
                 />
               </picture>
               <div class="command__footer">
@@ -480,7 +478,6 @@
                   alt="personal3"
                   loading="lazy"
                   sizes="(min-width: 1200) 25vw, (min-width: 767) 50vw, 100vw "
-                  
                 />
               </picture>
               <div class="command__footer">
@@ -566,7 +563,6 @@
                   alt="personal4"
                   loading="lazy"
                   sizes="(min-width: 1200) 25vw, (min-width: 767) 50vw, 100vw "
-                 
                 />
               </picture>
               <div class="command__footer">
@@ -846,6 +842,10 @@
                     type="text"
                     name="user-name"
                     required
+                    minlength="2"
+                    autocomplete="off"
+                    pattern="[A-Za-zА-Яа-яґҐЁёІіЇїЄє'’ʼ\s-]{2,20}{2,50}"
+                    placeholder="Имя Фамилия"
                   />
                   <svg class="modal-icon">
                     <use href="./img/icon.svg#icon-person"></use>
@@ -857,9 +857,15 @@
                   >Телефон
                   <input
                     class="modal-form-input"
+                    name="phone-number"
                     type="tel"
-                    name="user-tel"
+                    id="uPhone"
                     required
+                    pattern="[\+]\d{3}\s[\(]\d{2}[\)]\-\d{3}[\-]\d{2}[\-]\d{2}"
+                    minlength="17"
+                    maxlength="17"
+                    autocomplete="off"
+                    placeholder="0631234567"
                   />
                   <svg class="modal-icon">
                     <use href="./img/icon.svg#icon-phone"></use>
@@ -873,6 +879,9 @@
                     class="modal-form-input"
                     type="email"
                     name="user-email"
+                    autocomplete="off"
+                    required
+                    placeholder="example@yourmail.com"
                   />
                   <svg class="modal-icon">
                     <use href="./img/icon.svg#icon-email"></use>
@@ -911,7 +920,9 @@
       </div>
     </div>
 
-    <script src="./js/model.js"></script>
+    <script src="./js/modal.js"></script>
     <script src="./js/mobile.js"></script>
+    <script src="https://unpkg.com/imask"></script>
+    <script src="./js/mask.js"></script>
   </body>
 </html>
